@@ -1,0 +1,17 @@
+# Dataset root directory relative to the yolov5 directory
+path: C:\Users\Gabriela\Downloads\FRC v2025.v1-yolo-test.coco
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: train # 128 images for training
+val: valid # 128 images for validation
+test: # Optional path to test images
+
+# Classes (example using 80 COCO classes)
+names:
+    0: Ball
+    1: Blue Robot
+    2: Red Robot
+    3: Robots
+    4: algae
+    5: coral
+    6: robots
